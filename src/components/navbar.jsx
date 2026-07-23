@@ -31,7 +31,7 @@ export default function Navbar() {
 
         <div className={`link-container ${isMenuOpen ? 'active' : ''}`}>
           <nav>
-            <a href="#" onClick={closeMenu}>Home</a>
+            <a href="#" className="nav a.active" onClick={closeMenu}>Home</a>
             <a href="#" onClick={closeMenu}>Journey</a>
             <a href="#" onClick={closeMenu}>Project</a>
             <a href="#" onClick={closeMenu}>Resume</a>

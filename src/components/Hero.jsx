@@ -7,7 +7,7 @@ export default function Hero() {
     <div className='hero'>
 <div className="title">
  <h2> I am Ayush</h2>
- <h1>Frontend</h1>
+ <h1>Full Stack</h1>
  <h1>Web developer</h1>
 
 </div>
