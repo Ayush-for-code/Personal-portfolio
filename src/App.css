@@ -209,19 +209,18 @@ nav a:hover::before {
   width: fit-content;
 }
 
-
 .project-skill {
   display: flex;
   justify-content: start;
   align-items: center;
-  padding:5px 12px;
+  padding: 5px 12px;
   gap: 5px;
 }
 .project-skill span {
   padding: 6px 12px;
   border-radius: 12px;
-  border:1px solid  #29334c;
-  background-color:  #181e2c; 
+  border: 1px solid #29334c;
+  background-color: #181e2c;
 }
 .services {
   display: flex;
@@ -424,8 +423,8 @@ nav a:hover::before {
   max-width: 45%;
   max-height: 50%;
   text-decoration: none;
-  color:inherit;
-  margin:10px;
+  color: inherit;
+  margin: 10px;
   background-color: white;
   border-radius: 19px;
 }
@@ -437,35 +436,34 @@ nav a:hover::before {
   justify-content: center;
   align-items: center;
 }
-.project-container img{
+.project-container img {
   border-top-left-radius: 18px;
   border-top-right-radius: 18px;
-  width:100%;
-  object-fit:contain;
-   /* keeps aspect ratio and fills container */
+  width: 100%;
+  object-fit: contain;
+  /* keeps aspect ratio and fills container */
 }
 
 .context-area {
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
-  flex-direction:column;
+  flex-direction: column;
   width: 100%;
   min-height: 100px;
-  
+
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
   padding-bottom: 6px;
   background: #181e2c;
   h3 {
     font-weight: 600;
-    padding:0 18px;
-
+    padding: 0 18px;
   }
   p {
     color: #c9c8c8;
     letter-spacing: 1px;
-    padding:0 18px;
+    padding: 0 18px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -551,6 +549,16 @@ nav a:hover::before {
 
   .title h1 {
     font-size: 38px;
+    background: linear-gradient(to left, #d9d9d9 100%, #7d21df);
+    color: transparent;
+    background-clip: text;
+  }
+  .title h1:nth-child(2) {
+    background: linear-gradient(to left, #d9d9d9 -134%, #7d21df);
+     filter: drop-shadow(5px 5px 26px #7d21df);
+    font-size: 61px;
+    color: transparent;
+    background-clip: text;
   }
 
   .para {
