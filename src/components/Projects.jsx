@@ -19,6 +19,18 @@ function Projects() {
             <span>figma</span> 
            </div>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aut quam minima</p>
+
+<div className="demo">
+<a href="https://music-portfolio-blond.vercel.app/" target='_blank'>
+   <span>Live demo</span>
+             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
+</a>
+<a href="https://github.com/Ayush-for-code/E-commerce" target='_blank'>
+   <span>GitHub</span>
+             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
+</a>
+
+</div>
         </div>  
        </a>
        
@@ -34,7 +46,19 @@ function Projects() {
             <span>monogo</span> 
            </div>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aut quam minima</p>
-        </div> 
+           
+
+<div className="demo">
+<a href="https://e-commerce-pink-eta-92.vercel.app/" target='_blank'>
+   <span>Live demo</span>
+             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
+</a>
+<a href="https://github.com/Ayush-for-code/E-commerce" target='_blank'>
+   <span>GitHub</span>
+             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
+</a>
+
+</div>        </div> 
       </a>
        
     </div>

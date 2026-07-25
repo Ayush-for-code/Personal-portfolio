@@ -85,6 +85,7 @@ nav a:hover::before {
 }
 .title h1 {
   background: linear-gradient(to left, #d9d9d9 70%, #7d21df);
+   filter: drop-shadow(5px 5px 35px #7d21df);
   color: transparent;
   background-clip: text;
   font-size: 60px;
@@ -305,7 +306,7 @@ nav a:hover::before {
   justify-content: center;
   align-items: center;
   gap: 3px;
-  background: #470e84;
+  background:#531b8f;
   border: none;
   outline: none;
   font-weight: 600;
@@ -379,6 +380,13 @@ nav a:hover::before {
   color: #c9c8c8;
   transform: translate(-50%, -50%);
 }
+ .footer .social-links{
+    position: absolute;
+    right:0;
+  }
+  .footer .social-links svg{
+    fill:gray;
+  }
 .footer p {
   font-weight: 600;
   color: #c9c8c8;
@@ -466,6 +474,26 @@ nav a:hover::before {
     padding: 0 18px;
     display: flex;
     flex-wrap: wrap;
+  }
+}
+.demo{
+ padding: 0 18px 8px 18px;    
+ display: flex;
+ justify-content: space-between;
+}
+.demo a{
+  text-decoration: none;
+  display: flex;
+  color:inherit;
+  align-items: center;
+  gap:2px;
+  transition: all 0.1s linear ;
+}
+.demo a:hover{
+  transform: translateY(-3px);
+  color:#7d21df;
+  svg{
+    fill:#7c21de;
   }
 }
 .hamburger {
@@ -571,6 +599,9 @@ nav a:hover::before {
     justify-content: center;
     padding: 30px 0 0 0;
   }
+  .social-links a{
+    scale:1.1;
+  }
 
   .social-links svg {
     aspect-ratio: 1/1;
@@ -642,6 +673,7 @@ nav a:hover::before {
     transform: none;
     margin-top: 10px;
   }
+ 
 
   /* claude ai code */
   .navbar {
